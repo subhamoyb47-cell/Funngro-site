@@ -1,0 +1,29 @@
+Funngro - Short SEO Audit (sample)
+----------------------------------
+1) Lighthouse summary (example):
+   - Performance (mobile): 65
+   - Accessibility: 85
+   - Best Practices: 90
+   - SEO: 78
+
+2) Key issues found:
+   - Large images slowing mobile load.
+   - Missing image lazy-loading.
+   - Some render-blocking CSS.
+
+3) On-page SEO:
+   - Title & meta description present on each page.
+   - H1 present on both pages.
+   - JSON-LD Organization included.
+
+4) Recommendations (priority):
+   - Compress hero images (use WebP) and add loading="lazy".
+   - Inline critical CSS and defer non-critical CSS.
+   - Add sitemap.xml and robots.txt.
+   - Add descriptive alt text for any images.
+   - Improve server response / use CDN if possible.
+
+5) Quick checklist for submission:
+   - [ ] Working site URL (put in remark)
+   - [ ] SEO audit (this file) uploaded
+   - [ ] H1 present, titles optimized, mobile tested

@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Funngro — Smart Learning & Activities for Teens</title>
+  <meta name="description" content="Funngro provides innovative learning activities, courses, and community projects for teens. Discover courses, events and join our creative community." />
+  <meta name="keywords" content="Funngro, teen courses, teen projects, contests, mentorship" />
+  <meta property="og:title" content="Funngro — Smart Learning & Activities for Teens" />
+  <meta property="og:description" content="Join Funngro for interactive learning, contests and project opportunities for teens." />
+  <meta property="og:type" content="website" />
+  <link rel="canonical" href="https://YOURDOMAIN_OR_GITHUB.io/" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Funngro",
+    "url": "https://YOURDOMAIN_OR_GITHUB.io",
+    "logo": "https://YOURDOMAIN_OR_GITHUB.io/logo.png"
+  }
+  </script>
+  <style>
+    :root{--bg:#0f2430;--card:#15343f;--text:#e9f6f7;}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,Arial;background:var(--bg);color:var(--text);line-height:1.5}
+    .wrap{max-width:980px;margin:24px auto;padding:20px}
+    header{display:flex;align-items:center;justify-content:space-between}
+    .brand{font-weight:700;font-size:1.2rem}
+    .card{background:var(--card);padding:20px;border-radius:12px;margin-top:18px;box-shadow:0 6px 20px rgba(0,0,0,.3)}
+    h1{margin:0 0 10px;font-size:1.6rem}
+    p{margin:0 0 12px}
+    nav a{color:var(--text);text-decoration:none;margin-left:12px;font-weight:600}
+    .grid{display:grid;grid-template-columns:1fr;gap:12px}
+    .cta{display:inline-block;padding:10px 16px;background:#2ea6b2;border-radius:8px;color:#042; font-weight:700;text-decoration:none}
+    @media(min-width:700px){ .grid{grid-template-columns:1fr 320px} }
+    ul.features{padding-left:18px}
+    footer{margin-top:16px;font-size:0.9rem;color:#cfe9eb}
+    .logo-placeholder{width:52px;height:52px;border-radius:8px;background:#12393f;display:inline-block;vertical-align:middle;margin-right:10px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div style="display:flex;align-items:center">
+        <div class="logo-placeholder" aria-hidden="true"></div>
+        <div class="brand">Funngro</div>
+      </div>
+      <nav><a href="index.html">Home</a><a href="teen.html">Teen Hub</a></nav>
+    </header>
+
+    <section class="card" aria-labelledby="main-heading">
+      <h1 id="main-heading">Smart Learning & Fun for Teens</h1>
+      <p>Funngro builds interactive learning experiences for teenagers — project-based courses, mentorship, and creative contests. Submit your projects and get noticed by companies.</p>
+      <a class="cta" href="teen.html">Explore Teen Programs</a>
+    </section>
+
+    <div class="grid" role="region" aria-label="what we do and submission info">
+      <section class="card">
+        <h2>What we do</h2>
+        <ul class="features">
+          <li>Project-based courses</li>
+          <li>Contests and mentorship</li>
+          <li>Real company collaborations</li>
+        </ul>
+        <p>We evaluate submissions and award top performers with project opportunities.</p>
+      </section>
+
+      <aside class="card" aria-labelledby="submission">
+        <h3 id="submission">Submission Criteria</h3>
+        <p>Put your created website link in the remark when submitting. Also upload an SEO audit (summary) showing performance improvements.</p>
+      </aside>
+    </div>
+
+    <footer>© <span id="year"></span> Funngro — built as demo. Contact: info@funngro.example</footer>
+  </div>
+
+  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
